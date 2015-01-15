@@ -1,0 +1,17 @@
+//
+//  ExperienceTableViewCell.h
+//  Heylets
+//
+//  Created by Prasanthi on 1/13/15.
+//  Copyright (c) 2015 prasanthi. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ExperienceTableViewCell : UITableViewCell
+@property (nonatomic, retain) IBOutlet UIImageView *personImg;
+@property (nonatomic, retain) IBOutlet UILabel *personNameLabel;
+@property (nonatomic, retain) IBOutlet UILabel *placeNameLabel;
+@property (nonatomic, retain) IBOutlet UILabel *expDescription;
+
+@end
